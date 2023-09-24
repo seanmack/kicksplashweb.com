@@ -7,6 +7,7 @@ export function Logo(props) {
       height="40pt"
       viewBox="0 0 3356.000000 668.000000"
       preserveAspectRatio="xMidYMid meet"
+      {...props}
     >
       <g
         transform="translate(0.000000,668.000000) scale(0.100000,-0.100000)"
