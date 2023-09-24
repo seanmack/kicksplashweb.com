@@ -32,7 +32,9 @@ export function Hero() {
         focus on your business.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get 6 months free</Button>
+        <Button href="mailto:sean@kicksplashwebsites.com?subject=Question for Kicksplash&body=Hi Sean,">
+          Get a free consultation
+        </Button>
       </div>
     </Container>
   )

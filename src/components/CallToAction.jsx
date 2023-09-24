@@ -26,7 +26,11 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Get a lightning-fast website with superior SEO-optimized content.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button
+            color="white"
+            className="mt-10"
+            href="mailto:sean@kicksplashwebsites.com?subject=Question for Kicksplash&body=Hi Sean,"
+          >
             Contact Us
           </Button>
         </div>
