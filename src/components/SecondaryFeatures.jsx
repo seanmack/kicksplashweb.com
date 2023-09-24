@@ -12,10 +12,10 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Easy Updates',
+    summary: 'Hassle-free website updates managed by our team',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'Want to make a change to your website? Just give us a call or send an email. We handle all updates for you, so you can focus on your business without worrying about website management.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -46,11 +46,10 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
-    summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+    name: 'Stop Worrying',
+    summary: 'We take the guesswork out of website management.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'Not sure how the latest Google update will affect you? Just reach out to us and we will take care of it. We keep up with all the latest trends and make sure your website is always up-to-date.',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -74,11 +73,11 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Focus on Your Business',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Let us handle your online presence while you focus on what you do best.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Manage your business, not your website. Our team takes care of all the technical details, from maintenance to updates, so you can concentrate on growing your business.',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -218,11 +217,11 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Simplify your day.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Managing your website shouldn't distract you from running your
+            business.
           </p>
         </div>
         <FeaturesMobile />

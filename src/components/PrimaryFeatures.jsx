@@ -14,16 +14,16 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'SEO',
-    description:
-      'Optimize your online presence with our advanced on-page SEO techniques. Increase visibility, drive organic traffic, and improve ranking on search engines to boost your business.',
-    image: screenshotPayroll,
-  },
-  {
     title: 'Speed',
     description:
       "Experience lightning-fast load times and smooth transitions with our performance-focused development. Keep your visitors engaged and improve your site's search ranking.",
     image: screenshotExpenses,
+  },
+  {
+    title: 'SEO',
+    description:
+      'Optimize your online presence with our advanced on-page SEO techniques. Increase visibility, drive organic traffic, and improve ranking on search engines to boost your business.',
+    image: screenshotPayroll,
   },
   {
     title: 'Content Included',
