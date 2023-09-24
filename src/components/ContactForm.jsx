@@ -19,7 +19,7 @@ export function ContactForm() {
             Contact us
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Let's get started on your new website.
+            {"Let's get started on your new website."}
           </p>
         </div>
         <form
