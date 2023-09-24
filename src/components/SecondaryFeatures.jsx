@@ -220,7 +220,7 @@ export function SecondaryFeatures() {
             Simplify your day.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Managing your website shouldn't distract you from running your
+            Don't let managing your website distract you from running your
             business.
           </p>
         </div>
