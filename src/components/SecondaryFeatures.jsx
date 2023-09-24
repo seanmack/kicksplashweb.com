@@ -220,8 +220,9 @@ export function SecondaryFeatures() {
             Simplify your day.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Don't let managing your website distract you from running your
-            business.
+            {
+              "Don't let managing your website distract you from running your business."
+            }
           </p>
         </div>
         <FeaturesMobile />
