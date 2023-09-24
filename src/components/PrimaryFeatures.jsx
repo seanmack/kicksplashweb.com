@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'SEO',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      'Optimize your online presence with our advanced on-page SEO techniques. Increase visibility, drive organic traffic, and improve ranking on search engines to boost your business.',
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Speed',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Experience lightning-fast load times and smooth transitions with our performance-focused development. Keep your visitors engaged and improve your site's search ranking.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Content Included',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      'Streamline your website with high-quality, SEO-optimized content. From engaging articles to fast-loading images, we provide everything you need to captivate your audience and improve search rankings.',
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Local Page Rankings',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Promote your business within your local community with targeted SEO strategies. Appear in local search results, get noticed on map listings, and attract more local customers to your business.',
     image: screenshotReporting,
   },
 ]
@@ -74,11 +74,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Get a lightning fast website with perfect SEO.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            We build each website by hand to make sure it looks good to Google.
           </p>
         </div>
         <Tab.Group
