@@ -4,7 +4,6 @@ import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { ContactForm } from '@/components/ContactForm'
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <ContactForm />
         <SecondaryFeatures />
         <CallToAction />
         {/* <Testimonials /> */}
