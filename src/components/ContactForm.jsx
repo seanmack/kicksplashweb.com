@@ -27,7 +27,7 @@ export function ContactForm() {
           </div>
           <form
             method="POST"
-            action="/success"
+            action="/success/"
             className="mx-auto mt-16 max-w-xl sm:mt-20"
             data-netlify="true"
             name="contact"
